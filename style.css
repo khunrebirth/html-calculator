@@ -1,0 +1,55 @@
+html, body {
+    font-family: 'Ubuntu';
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+.caculator {
+    width: 300px;
+    text-align: right;
+}
+
+#screen {
+    font-size: 20px;
+    font-weight: 700;
+    height: 30px;
+    margin: 10px 25px;
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #fff;
+}
+
+#wrapper {
+    font-weight: 300;
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+
+.button {
+    text-align: center;
+    width: 35px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #00cec9;
+    background-color: #fff;
+    transition: .3s;
+}
